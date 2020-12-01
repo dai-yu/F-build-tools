@@ -1,3 +1,7 @@
-const sayNewHello = ()=> ("New Hello!");
+import React from "react";
+import ReactDOM from 'react-dom';
 
-document.writeln(sayNewHello());
+ReactDOM.render(
+    <h1>Hello, world!</h1>,
+    document.getElementById('root')
+);
