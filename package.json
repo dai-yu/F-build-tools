@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/dai-yu/F-build-tools/issues"
   },
-  "homepage": "https://github.com/dai-yu/F-build-tools#readme"
+  "homepage": "https://github.com/dai-yu/F-build-tools#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7"
+  }
 }
